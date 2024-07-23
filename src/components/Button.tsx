@@ -1,10 +1,10 @@
 import { ReactNode } from "react";
-
+type ButtonType = "primary" | "secondary";
 type ButtonClickHandler = (event: React.MouseEvent<HTMLButtonElement>) => void;
 interface ButtonProps {
   onClick?: ButtonClickHandler;
   className?: string;
-  type: string;
+  type: ButtonType;
   children: ReactNode;
 }
 function Button({ onClick, className, type, children }: ButtonProps) {
