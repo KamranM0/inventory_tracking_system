@@ -3,7 +3,7 @@ function LandingImg() {
     <div className="mx-auto flex justify-center">
       <div className="relative">
         <img
-          className="relative z-[5] lg:w-[400px] xl:w-[450px] 2xl:w-[470px]"
+          className="relative z-[5] lg:w-[400px] xl:w-[450px] 2xl:w-[450px]"
           src="rightImg.png"
         ></img>
         <img

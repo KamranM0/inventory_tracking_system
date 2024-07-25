@@ -8,7 +8,7 @@ function LandingPage() {
   const navigate = useNavigate();
   if (lg)
     return (
-      <div className="mx-[20px] flex h-screen items-center justify-between sm:mx-[40px] xl:mx-[70px] 2xl:mx-[96px]">
+      <div className="mx-[20px] flex h-screen items-center justify-between sm:mx-[40px] xl:mx-[70px] 2xl:mx-[70px]">
         <div className="flex w-[50%] flex-col justify-center gap-3">
           <h1 className="font-bold md:text-[35px] md:leading-[45px] lg:text-[35px] lg:leading-[45px] xl:text-[48px] xl:leading-[60px]">
             Proektlərini həyata keçirmək artıq{" "}

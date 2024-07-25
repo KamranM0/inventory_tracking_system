@@ -1,5 +1,4 @@
-import { Link, useNavigate } from "react-router-dom";
-import Button from "./Button";
+import { useNavigate } from "react-router-dom";
 import { useMediaQueries } from "../hooks/UseMedia";
 
 function Back() {

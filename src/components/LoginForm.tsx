@@ -11,7 +11,9 @@ function LoginForm() {
       </ul>
 
       <div className="flex flex-col items-center justify-center gap-3">
-        <Link className="self-end text-primary-blue">Şifrəmi unutdum</Link>
+        <Link to="/" className="self-end text-primary-blue">
+          Şifrəmi unutdum
+        </Link>
         <Button
           className="h-12 w-full text-xl font-normal sm:h-12 sm:w-full sm:text-xl md:h-12 md:w-full md:text-xl lg:h-12 lg:text-xl"
           type="primary"
@@ -19,7 +21,10 @@ function LoginForm() {
           Daxil ol
         </Button>
         <p>
-          Hesabın yoxdur? <Link className="text-primary-blue">Qeydiyyat</Link>
+          Hesabın yoxdur?{" "}
+          <Link to="/register" className="text-primary-blue">
+            Qeydiyyat
+          </Link>
         </p>
       </div>
     </form>

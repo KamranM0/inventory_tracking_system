@@ -1,4 +1,5 @@
-function InputField({ label }) {
+type Props = { label: string };
+function InputField({ label }: Props) {
   return (
     <li>
       <label className="mb-3 block text-[#767676]">{label}</label>
