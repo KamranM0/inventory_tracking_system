@@ -6,8 +6,12 @@ function LoginForm() {
   return (
     <form className="flex w-full flex-col gap-3">
       <ul className="flex flex-col gap-3">
-        <InputField label={"E-poçt"} />
-        <InputField label={"Şifrə"} />
+        <li>
+          <InputField label={"E-poçt"} />
+        </li>
+        <li>
+          <InputField label={"Şifrə"} />
+        </li>
       </ul>
 
       <div className="flex flex-col items-center justify-center gap-3">

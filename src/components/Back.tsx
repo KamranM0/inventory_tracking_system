@@ -7,7 +7,7 @@ function Back() {
   return (
     <button
       onClick={() => navigate(-1)}
-      className="absolute left-4 top-4 leading-none"
+      className="absolute left-4 top-4 z-50 leading-none"
     >
       {lg ? (
         "Geri dön"

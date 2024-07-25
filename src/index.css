@@ -7,3 +7,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Additional styling to ensure the appearance is consistent */
+input[type="number"] {
+  -moz-appearance: textfield; /* For Firefox */
+  appearance: textfield; /* For modern browsers */
+}
